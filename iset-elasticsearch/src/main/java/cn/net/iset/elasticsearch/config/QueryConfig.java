@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * ClassName: QueryConfig.java
  * Description:
  *
- * @author yule1@cloudwalk.com
+ * @author yule1
  * @date 2020/11/18
  */
 @Data

@@ -8,7 +8,7 @@ import java.io.Serializable;
  * ClassName: AllStructCoreData.java
  * Description:
  *
- * @author yule1@cloudwalk.com
+ * @author yule
  * @date 2020/11/22
  */
 @Data

@@ -3,14 +3,6 @@ package cn.net.iset.elasticsearch.bean;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 
-/**
- * @ClassName:
- * @Author:jiangjipeng
- * @Date:Created in 3:19 下午 2020/11/18
- * @Description:索引信息
- * @Version:
- * @Email:jiangjipeng@cloudwalk.cn
- */
 @Data
 @Component
 public class IndexDO {

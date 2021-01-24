@@ -8,7 +8,7 @@ import java.util.List;
  * ClassName: EachDetailDataResult.java
  * Description:
  *
- * @author yule1@cloudwalk.com
+ * @author yule
  * @date 2020/11/26
  */
 @Data

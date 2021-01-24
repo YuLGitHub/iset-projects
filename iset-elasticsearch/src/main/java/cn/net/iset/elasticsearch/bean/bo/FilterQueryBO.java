@@ -8,7 +8,7 @@ import java.util.List;
  * ClassName: FilterQueryBO.java
  * Description:
  *
- * @author yule1@cloudwalk.com
+ * @author yule
  * @date 2020/11/17
  */
 @Data

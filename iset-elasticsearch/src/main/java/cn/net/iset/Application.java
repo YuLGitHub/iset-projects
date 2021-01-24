@@ -13,7 +13,7 @@ import java.util.concurrent.CountDownLatch;
  * ClassName: Application.java
  * Description:
  *
- * @author yule1@cloudwalk.com
+ * @author yule
  * @date 2020/12/24
  */
 @Slf4j

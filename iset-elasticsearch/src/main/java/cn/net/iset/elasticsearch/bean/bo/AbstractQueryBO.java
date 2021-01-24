@@ -9,7 +9,7 @@ import java.util.Set;
  * ClassName: AbstractQueryBO.java
  * Description:
  *
- * @author yule1@cloudwalk.com
+ * @author yule
  * @since 2020/12/24
  */
 @Data

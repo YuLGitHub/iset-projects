@@ -10,7 +10,7 @@ import java.nio.charset.StandardCharsets;
  * ClassName: SecretUtil.java
  * Description:
  *
- * @author yule1@cloudwalk.com
+ * @author yule
  * @date 2020/11/17
  */
 public class SecretUtil {

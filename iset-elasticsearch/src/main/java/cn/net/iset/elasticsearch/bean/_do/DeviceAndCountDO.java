@@ -5,14 +5,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-/**
- * @ClassName:
- * @Author:jiangjipeng
- * @Date:Created in 3:28 下午 2020/11/18
- * @Description:
- * @Version:
- * @Email:jiangjipeng@cloudwalk.cn
- */
 @Data
 @Component
 public class DeviceAndCountDO {
