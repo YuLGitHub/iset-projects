@@ -1,5 +1,7 @@
 package cn.net.iset.mode.template.method.demo;
 
+import cn.net.iset.mode.template.method.ICheckFunction;
+import cn.net.iset.mode.template.method.check.CheckRequest;
 import cn.net.iset.mode.template.method.demo.bean.TemplateMethodParam;
 import cn.net.iset.mode.template.method.demo.bean.TemplateMethodResult;
 import org.springframework.context.annotation.Scope;
@@ -38,5 +40,13 @@ public class DemoBiz extends DemoAbstractBiz<TemplateMethodParam, List<TemplateM
     @Override
     protected void prepareMethod() {
         // todo prepare method
+    }
+
+    @Override
+    protected List<ICheckFunction> getCheckFunctions() {
+        CheckRequest checkRequest = new CheckRequest(System.currentTimeMillis(), System.currentTimeMillis() + 1000);
+        final List<ICheckFunction> checks = new ArrayList<>();
+        checks.add(checkRequest);
+        return checks;
     }
 }

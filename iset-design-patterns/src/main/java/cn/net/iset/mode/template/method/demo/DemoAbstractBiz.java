@@ -2,7 +2,10 @@ package cn.net.iset.mode.template.method.demo;
 
 import cn.net.iset.mode.template.method.AbstractBiz;
 import cn.net.iset.mode.template.method.ICheckFunction;
+import cn.net.iset.mode.template.method.check.CheckRequest;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -47,8 +50,4 @@ public abstract class DemoAbstractBiz<I, O> extends AbstractBiz<I, O> {
      */
     protected abstract void prepareMethod();
 
-    @Override
-    protected List<ICheckFunction> getCheckFunctions() {
-        return null;
-    }
 }
